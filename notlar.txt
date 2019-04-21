@@ -1,0 +1,36 @@
+!!! nested queryler ve iliskisel cebir sql sorgu kalıpları
+!!! orneklerdeki queryleri kartezyen carpım ve nested olarak yeniden yazmaya calıs
+	> acaba query tipleri birbiri arasında degisebilir mi?
+
+SQL is a rich programming language that handles the way data is processed DECLARATIVELY
+SQL, verilerin işlenme biçimini ele alan zengin bir programlama dilidir.
+
+Tables in Sql
+the number of attributes is the arity(bir fonksyondaki arguman sayisi) of the relation
+number of rows is the cardinality of the relation row count = 15 => |x| = 15
+
+Meaning (Semantics) of SQL Queries
+multiset union : select x from r as x1, r2 as x2 ... where (conditions)
+multiset union almost never the fastest way to compute it 
+
+Set Operations & Nested Queries
+
+Set Operations
+
+Multiset Operations
+
+SELECT DISTINC R.A 
+FROM R,S,T
+WHERE R.A=S.A OR R.A=T.A : multi set instersection
+
+what does this look like in python
+
+for r in R:
+	for s in S:			inefficient computing 
+		for t in T:
+		if bilmemne 
+			output.add(bilmemne)
+
+Nested Queries
+
+SQL SORGU MANTIGI TIPLERI 

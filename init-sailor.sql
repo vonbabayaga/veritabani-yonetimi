@@ -33,20 +33,15 @@ insert into Boats(bid,bname,color) values (205,"anabolu","green");
 insert into Boats(bid,bname,color) values (206,"buyukada","red");
 
 insert into Reserves(sid,bid,day) values (101,202,"2016-11-01");
-insert into Reserves(sid,bid,day) values (102,205,"2017-2-01");
+insert into Reserves(sid,bid,day) values (102,205,"2016-11-01");
 insert into Reserves(sid,bid,day) values (104,201,"2018-12-01");
 insert into Reserves(sid,bid,day) values (102,204,"2019-1-01");
 insert into Reserves(sid,bid,day) values (104,202,"2016-4-01");
 insert into Reserves(sid,bid,day) values (103,203,"2017-5-01");
-insert into Reserves(sid,bid,day) values (102,240,"2018-9-01");
+insert into Reserves(sid,bid,day) values (102,204,"2018-9-01");
 insert into Reserves(sid,bid,day) values (105,206,"2019-10-01");
 insert into Reserves(sid,bid,day) values (101,206,"2019-4-01");
 insert into Reserves(sid,bid,day) values (105,201,"2018-1-01");
 insert into Reserves(sid,bid,day) values (102,204,"2017-2-01");
 insert into Reserves(sid,bid,day) values (105,202,"2018-6-01");
 insert into Reserves(sid,bid,day) values (101,201,"2016-1-01");
-
-
-
-
-
